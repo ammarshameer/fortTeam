@@ -751,12 +751,6 @@ header {
   .dropdown-link:hover > a {
     /* background-color: var(--clr-dropdown-link-hov); */
     background: #155081;
-
-    /* background: linear-gradient(
-    180deg,
-    rgba(54, 102, 52, 0.5),
-    rgba(56, 33, 70, 0.5)
-  ); */
   }
 
   .dropdown-link:first-child:hover ~ .arrow {
