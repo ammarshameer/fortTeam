@@ -44,7 +44,7 @@ header {
   /* position: relative; */
   height: 100%;
   width: 100%;
-  background: url("./Images/hexa_dan_wave_10.jpg") no-repeat top center / cover;
+  background: url("../Images/hexa_dan_wave_10.jpg") no-repeat top center / cover;
   /* background-color: rgba(30, 130, 95); */
   /* z-index: 1; */
   /* overflow: hidden; */
