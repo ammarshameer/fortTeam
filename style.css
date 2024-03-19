@@ -547,6 +547,152 @@ header {
   width: 30px;
   height: 30px;
 }
+/* ----contact-us----- */
+/* .container {
+  margin: 0 8% 0 10%;
+} */
+.contact-parent-div{
+  width: 85%;
+  margin: 1rem auto;
+}
+.contact-child-div{
+  margin: 2rem 1rem;
+  width: 60%;
+}
+.contact-form{
+  display: inline-block;
+  width: 100%;
+}
+.star{
+  color: red;
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+}
+.radio-pera{
+  margin: 0.6rem 0;
+  font-weight: bold;
+  color: rgba(61, 169, 57, 0.8);
+}
+.first-name-div{
+float: left;
+  display: flex;
+  width: 50%;
+ flex-direction: column;
+}
+.first-name-div label{
+  margin: 0.6rem 0;
+  font-weight: bold;
+  color: rgba(61, 169, 57, 0.8);
+}
+.first-name-div input{
+  width: 95%;
+  padding: 0.6rem 1rem;
+  /* height: 40px; */
+  margin-right: 1rem;
+  font-size: 1rem;
+  /* border: 1px solid #a6f7a3; */
+}
+.last-name-div{
+  width: 50%;
+  display: flex;
+ flex-direction: column;
+}
+.last-name-div label{
+  font-weight: bold;
+  color: rgba(61, 169, 57, 0.8);
+  margin: 0.6rem 1rem;
+}
+.last-name-div input{
+  /* height: 40px; */
+  padding: 0.6rem 1rem;
+  width: 95%;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.phone-div{
+  float: left;
+  width: 50%;
+  display: flex;
+ flex-direction: column;
+}
+.phone-div label{
+  font-weight: bold;
+  color: rgba(61, 169, 57, 0.8);
+  margin: 0.6rem 0;
+}
+.phone-div input{
+  /* height: 40px; */
+  padding:0.6rem 1rem;
+  width: 95%;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+.email-div{
+  width: 50%;
+  display: flex;
+ flex-direction: column;
+}
+.email-div label{
+  font-weight: bold;
+  color: rgba(61, 169, 57, 0.8);
+  margin: .6rem 1rem;
+}
+.email-div input{
+  /* height: 40px; */
+  padding: 0.6rem 1rem;
+  width: 95%;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.company-name-div{
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+}
+.company-name-div label{
+  font-weight: bold;
+  color: rgba(61, 169, 57, 0.8);
+  margin: 0.6rem 0;
+}
+.company-name-div input{
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  /* height: 40px; */
+  width: 100%;
+}
+.website-div{
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+}
+.website-div label{
+  font-weight: bold;
+  color: rgba(61, 169, 57, 0.8);
+  margin: 0.6rem 0;
+}
+.website-div input{
+  padding: 0.6rem 1rem;
+  /* height: 40px; */
+  font-size: 1rem;
+  width: 100%;
+}
+.text-area-div{
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+}
+.text-area-div label{
+  font-weight: bold;
+  margin: .6rem 0;
+  color: rgba(61, 169, 57, 0.8);
+}
+.text-area-div textarea{
+  width: 100%;
+  height: 9.5em !important;
+  font-size: 1.2rem;
+  resize: vertical ;
+  margin: 0 0 2rem 0;
+}
 @keyframes animation {
   from {
     opacity: 0;
