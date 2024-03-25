@@ -393,8 +393,8 @@ header {
 }
 @media only screen and (max-width: 1200px) {
   .btn {
-    padding: 1rem;
-  }
+    padding: 1rem 0.9rem;
+}
   .amazon-services-container {
     width: 96%;
   }
