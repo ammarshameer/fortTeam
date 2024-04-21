@@ -392,6 +392,123 @@ header {
     transform: translateY(0px);
   }
 }
+/* ----LearnMore---- */
+.amazon-brand-registry-heading-div{
+  margin: 2rem 0 1rem;
+}
+.amazon-heading{
+  font-size: 2.7rem;
+}
+.amazon-pera{
+  font-size: 1.24rem;
+  line-height: 1.8rem;
+}
+.amazon-brand-registry-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 0 2rem;
+}
+/* .amazon-brand-registry-div div{
+  padding: 0 4rem 0 0;
+} */
+.amazon-brand-registry-div img{
+  width: 100%;
+  height: 400px;
+  /* margin-left: 3rem; */
+}
+.free-consult-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: 2px solid #3da939;
+  font-size: 1.3rem;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  /* text-transform: uppercase; */
+}
+.free-consult-btn:hover {
+  /* text-decoration: underline; */
+  color: #fafafa;
+  background-color: #3da939;
+}
+/* -----FAQ's---- */
+.accordion {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 2rem;
+}
+.q-span{
+  padding-right:5px;
+  color: #3da939;
+  font-weight: bold;
+}
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.accordion-title {
+  /* background-color: #f1f1f1; */
+  padding: 0.6rem 0;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  /* max-heighgt:0px; */
+  padding: 0.6rem 0;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+  max-height: 500px;
+}
+/* ----------- */
+.amazon-ul{
+list-style: unset;
+margin: 1rem 1.3rem;
+line-height: 2rem;
+font-size: 1.25rem;
+}
+.margin-heading{
+  margin:  1rem 0;
+}
+.margin-btn{
+  margin: 1rem 0;
+}
+.img-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-div img{
+  width: 90%;
+  height: 90vh;
+}
+.amazon-registry-help-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 0 2rem;
+}
+
+.amazon-registry-help-div img{
+  width: 100%;
+  height: 400px;
+  margin: 0 4rem 0 0;
+}
+.form-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.width{
+  width: 100% !important;
+}
 @media only screen and (max-width: 1200px) {
   .btn {
     padding: 1rem 0.9rem;
@@ -594,6 +711,21 @@ header {
     margin: 0.4rem auto;
     /* width: 388px; */
   }
+  .free-consult-btn-div{
+    text-align: center;
+  }
+  .amazon-brand-registry-div{
+    flex-direction: column;
+  }
+  .amazon-registry-help-div{
+    flex-direction: column-reverse;
+  }
+  .amazon-registry-help-div img{
+    margin: 0;
+  }
+  .img-div img {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 750px) {
   .amazon-services-parent-div {
@@ -606,6 +738,13 @@ header {
   .amazon-services-child-div img {
     width: 95%;
     margin: 0.7rem auto;
+  }
+  .amazon-heading{
+    font-size: 2rem;
+  }
+  .amazon-pera{
+    font-size: 1.15rem;
+    line-height: 1.5rem;
   }
 }
 @media only screen and (max-width: 500px) {
